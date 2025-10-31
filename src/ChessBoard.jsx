@@ -1,0 +1,2 @@
+// src/ChessBoard.jsx\nimport React, { useEffect, useState } from 'react';\nimport { hubConnection, sendMove } from './signalRService';\nfunction ChessBoard() {\n  useEffect(() => {\n    hubConnection.on('ReceiveMove', (gid, move) => { /* update board */ });\n  }, []);\n  return <div id="board">{/* TODO: render squares */}</div>;
+}\nexport default ChessBoard;
