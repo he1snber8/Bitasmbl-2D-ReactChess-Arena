@@ -1,0 +1,1 @@
+// src/App.jsx\nimport React from 'react';\nimport ChessBoard from './ChessBoard';\nfunction App() {\n  return <ChessBoard />;\n}\nexport default App;
