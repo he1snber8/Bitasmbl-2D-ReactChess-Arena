@@ -1,0 +1,1 @@
+// package.json\n{\n  "name": "chess-client",\n  "dependencies": {\n    "react": "^18.0.0",\n    "react-dom": "^18.0.0",\n    "@microsoft/signalr": "^6.0.0"\n  }\n}
