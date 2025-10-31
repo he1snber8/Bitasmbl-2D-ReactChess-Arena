@@ -1,0 +1,1 @@
+// Data/ChessContext.cs\nusing Microsoft.EntityFrameworkCore;\npublic class ChessContext : DbContext {\n  public ChessContext(DbContextOptions<ChessContext> opts):base(opts){}\n  public DbSet<ChessGame> Games { get; set; }\n}
