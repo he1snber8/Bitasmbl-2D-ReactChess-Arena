@@ -1,0 +1,1 @@
+// src/signalRService.js\nimport { HubConnectionBuilder } from '@microsoft/signalr';\nexport const hubConnection = new HubConnectionBuilder()\n  .withUrl('/chessHub')\n  .withAutomaticReconnect()\n  .build();\nhubConnection.start().catch(err => console.error(err));\nexport function sendMove(gameId, move) { return hubConnection.invoke('SendMove', gameId, move); }
