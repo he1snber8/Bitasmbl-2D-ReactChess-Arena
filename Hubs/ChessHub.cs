@@ -1,0 +1,1 @@
+// Hubs/ChessHub.cs\nusing Microsoft.AspNetCore.SignalR;\npublic class ChessHub : Hub {\n  public async Task SendMove(string gameId, string move) {\n    await Clients.Others.SendAsync(\"ReceiveMove\", gameId, move);\n  }\n}
