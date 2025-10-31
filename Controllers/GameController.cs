@@ -1,0 +1,1 @@
+// Controllers/GameController.cs\nusing Microsoft.AspNetCore.Mvc;\n[ApiController]\n[Route(\"api/game\")]\npublic class GameController : ControllerBase {\n  // TODO: Implement endpoints for creating, retrieving and updating games\n}
