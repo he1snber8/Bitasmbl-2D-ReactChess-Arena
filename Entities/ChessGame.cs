@@ -1,0 +1,1 @@
+// Entities/ChessGame.cs\nusing System;\npublic class ChessGame {\n  public int Id { get; set; }\n  public string MovesJson { get; set; }\n  public DateTime CreatedAt { get; set; }\n}
